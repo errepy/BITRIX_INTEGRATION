@@ -1,6 +1,6 @@
 ## Bitrix24 integration process
 
-### How to insert a new deal
+1. ## How to insert a new deal
 
 - You need to create a new incoming webhook on bitrix24 plataform in the section https://via.bitrix24.com/devops/ -> Importar y exportar datos -> Importe clientes 
 
@@ -15,24 +15,24 @@
 - SOURCE_ID: OTHER (must be in capital).
 
 
-### How to move a deal from new to contactado
+2. ## How to move a deal from new to contactado
 - When a new deal comes to the CRM it goes to NEW (NUEVO)
 - You need to configure the automatization of the FUNNEL STAGE to move from NEW to CONTACTADO
 
 
-#### Configure the automatization to move from NEW to CONTACTADO
+### Configure the automatization to move from NEW to CONTACTADO
 - First you need to go to CRM
 - Go to automatization (center menu on the right with the logo of a robot 🤖)
 - In the stage you want to add a rule of automatization go to the sign + (add) and click it.
 - Search for CAMBIAR ETAPA (CHANGE STAGE)
 
-### CONFIGURE ETAPA
+### Configure ETAPA
  ![alt text](image-1.png)
- > Ejecuciòn:  en paralelo
- > Hora: Inmediatamente
- > Condicion: Origer igual a Other
- > Nueva fase: Contactado
- > Cambiar en nombre de : Supervisor (we can have a new user to identify the productivity of the bot 🤖)
+ - Ejecuciòn:  en paralelo
+ - Hora: Inmediatamente
+ - Condicion: Origer igual a Other
+ - Nueva fase: Contactado
+ - Cambiar en nombre de : Supervisor (we can have a new user to identify the productivity of the bot 🤖)
 
 
 
