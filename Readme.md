@@ -36,7 +36,13 @@
  - Cambiar en nombre de : Supervisor (we can have a new user to identify the productivity of the bot 🤖)
 
 
-3. ## Incomming Webhook to change STAGE_ID from CONTACTADO TO PEDIDO
+ 3. ## How to GET THE ID OF A DEAL ON THE CRM
+- first you get the ORIGIN_ID of the deal created in asis ai
+- go to https://via.bitrix24.com/rest/1/zbr5bpj2ook4m1m0/crm.deal.list.json?filter[ORIGIN_ID]=2555 (change that origin_id with the pedido in asis ai.)
+- get the deal in CRM and get the ID from the deal.
+
+
+4. ## Incomming Webhook to change STAGE_ID from CONTACTADO TO PEDIDO
 - Go to https://via.bitrix24.com/devops/ 
 - Go to **Automatizar las ventas**
 - Click on **Mueva una negociación a lo largo del embudo de ventas**
@@ -57,8 +63,5 @@
 ![alt text](image-3.png)
 
 
-### How to GET THE ID OF A DEAL ON THE CRM
-- first you get the ORIGIN_ID of the deal created in asis ai
-- go to https://via.bitrix24.com/rest/1/zbr5bpj2ook4m1m0/crm.deal.list.json?filter[ORIGIN_ID]=2555 (change that origin_id with the pedido in asis ai.)
-- get the deal in CRM and get the ID from the deal.
+
 
