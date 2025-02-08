@@ -60,6 +60,7 @@
 
 - ID (ID of the deal on the CRM) 
 - STAGE_ID (https://via.bitrix24.com/rest/1/j23k6q4wizohdmg2/crm.status.list.json) - SEARCH FOR "ENTITY_ID": "DEAL_STAGE", search the **"STATUS_ID": "PREPAYMENT_INVOICE",** and copy the NAME ON STATUS_ID FOR THE LINK
+
 ![alt text](image-3.png)
 
 
