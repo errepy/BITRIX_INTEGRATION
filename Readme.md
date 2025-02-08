@@ -15,12 +15,12 @@
 - SOURCE_ID: OTHER (must be in capital).
 
 
-
-### How to move a deal from new to contactos
+### How to move a deal from new to contactado
 - When a new deal comes to the CRM it goes to NEW (NUEVO)
-- You need to configure the automatization of the FUNNEL STAGE.
+- You need to configure the automatization of the FUNNEL STAGE to move from NEW to CONTACTADO
 
-#### Configure the automatization
+
+#### Configure the automatization to move from NEW to CONTACTADO
 - First you need to go to CRM
 - Go to automatization (center menu on the right with the logo of a robot 🤖)
 - In the stage you want to add a rule of automatization go to the sign + (add) and click it.
@@ -28,7 +28,11 @@
 
 ### CONFIGURE ETAPA
  ![alt text](image-1.png)
- - Ejecuciòn:  en paralelo
- - Hora: Inmediatamente
- - Condicion: Origer igual a Other
+ > Ejecuciòn:  en paralelo
+ > Hora: Inmediatamente
+ > Condicion: Origer igual a Other
+ > Nueva fase: Contactado
+ > Cambiar en nombre de : Supervisor (we can have a new user to identify the productivity of the bot 🤖)
+
+
 
